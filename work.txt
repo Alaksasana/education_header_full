@@ -1,0 +1,12 @@
+Fonts
+	1 Dosis
+	2 lato for pragraph
+
+
+
+Colors
+	yellow 	#ffd338;
+	pink 	#f05c5c;
+	blue 	#1ec0ff;
+	green	#56d47e;
+	black	#333333;

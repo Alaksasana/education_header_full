@@ -1,0 +1,70 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*Header start*/
+	.logo{
+		width: 130px;
+	}
+	.menu ul li a{
+		padding: 0 !important;
+		text-align: end;
+	}
+	.menu ul li a:hover{
+		background-color: transparent !important;
+		color: #f05c5c !important;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*Header start*/
+	.logo{
+		width: 170px;
+		130px
+	}
+	.menu ul li a{
+		padding: 0 !important;
+		text-align: end;
+	}
+	.menu ul li a:hover{
+		background-color: transparent !important;
+		color: #f05c5c !important;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*Header start*/
+	.menu ul li a{
+		padding: 0 !important;
+		text-align: end;
+	}
+	.menu ul li a:hover{
+		background-color: transparent !important;
+		color: #f05c5c !important;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*Header start*/
+	header{
+		
+	}
+	.menu ul li a{
+		padding: 2px 20px !important;
+	}
+	
+	.custom_user_drop, .custom_search_drop {
+    top: 154%;
+	}
+}
+
+/*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1200px) {
+	
+}

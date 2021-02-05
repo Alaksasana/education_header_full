@@ -1,0 +1,72 @@
+/*font-family: 'Lato', sans-serif;*/
+
+/*Common start*/
+
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
+}
+/*Common end*/
+/*Header start*/
+header{
+	background-color: #ffd338;
+}
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff !important;
+	padding: 2px 30px !important;
+	border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+
+}
+.custom_user, .custom_search{
+	color: #fff;
+}
+
+.custom_user:hover, .custom_search:hover{
+	color: #f05c5c;
+	background-color: transparent;
+}
+.custom_user:focus, .custom_search:focus{
+	box-shadow: 0 0 0 0;
+}
+.custom_user_drop, .custom_search_drop{
+	top: 161%;
+    left: -70px;
+    min-width: 110px;
+	background-color: #ffd338;
+}
+.custom_user_drop li a:hover{
+	color: #f05c5c !important;
+	background-color: transparent !important;
+}
+.custom_search_drop{
+	left: -190px;
+    min-width: 240px
+}
+
+.custom_form{
+	margin-left: 6px;
+}
+.custom_form:focus{
+	border-color: transparent;
+	box-shadow: 0 0 0 0;	
+}
+.custom_btn{
+	color: #fff;
+}
+.custom_btn:hover{
+	color: #f05c5c;
+}
+/*Header end*/
+/*Slider start*/ 
+.slider{
+	background-image: url(../images/banner.png); 
+	min-height: 980px;
+}	
+/*Slider end*/
